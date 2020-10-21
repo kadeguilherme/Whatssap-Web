@@ -10,7 +10,7 @@ import ChatListItem from './components/ChatListItem';
 
 export default () =>{
 
-  const [chatlist,setChatList] = useState([{},{},{}]);
+  const [chatlist,setChatList] = useState([{},{},{},{},{},{},{},{},{},{},{},{}]);
 
   return (
     <div className = "app-window"> 
@@ -25,11 +25,13 @@ export default () =>{
                 <div className="header-btn">
                     <DonutLargeIcon style = {{color:'#919191'}}/>
                 </div>
+
                 <div className="header-btn">
-                <ChatIcon style = {{color:'#919191'}}/>
+                    <ChatIcon style = {{color:'#919191'}}/>
                 </div>
+                
                 <div className="header-btn">
-                <MoreVertIcon style = {{color:'#919191'}}/>
+                    <MoreVertIcon style = {{color:'#919191'}}/>
                 </div>
               </div>
           </header>
@@ -55,7 +57,7 @@ export default () =>{
       </div>
 
       <div className = "contentarea">
-
+                conversa
       </div>
 
     </div>

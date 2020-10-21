@@ -17,9 +17,9 @@ body{
 .sidebar{
   width: 35%;
   max-width:415px;
-  display:flexbox;
+  display:flex;
   flex-direction: column;
-  border-radius: 1px solid #DDD;
+  border-right: 1px solid #DDD;
 }
 header{
   height: 60px;
@@ -74,6 +74,11 @@ header{
   margin-left: 10px;
 }
 
+.chatlist{
+  flex: 1;
+  background-color: #FFF;
+  overflow-y: auto;
+}
 
 .contentarea{
 

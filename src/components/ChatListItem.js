@@ -4,7 +4,7 @@ import './ChatListItem.css'
 export default () =>{
 
     return (
-        <div className='chatLisItem'>
+        <div className='chatListItem'>
             <img className='chatListItem-avatar' src="https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg" alt=""/>
             <div className='chatListItem-lines'>
                 <div className='chatListItem-line'>
